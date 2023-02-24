@@ -20,14 +20,14 @@ How to calculate it?
 Churn Rate = Number of customers lost ÷ Total number of clients at the beginning of the interested time period x 100.
 I will evaluate different models both parametric and non parametric.
 
-##Data Understanding 
+## Data Understanding 
 
 The dataset is small: 3333 entries, 21 columns. Data give information related to the geographical area, customers services comsumption and the tenure of their relationship with the provider. Aside the local calling plan, that has three different charges base on time: day, evening, night, it is possible to identify two other services that can be added: international calling, with a one for all charge, and a voice mail plan, for which it is not possible to deduce the costs if any are presents. Support service data are also available and provide information related to the number of calls made to it. There are no data related for example to the duration of these calls nor their quality. It would have been interesting for a more targeted analysis and the identifications of patterns the inclusions of information specifically related to gender, age, occupation, contractual options, payment options, state population, density, telcom infrastructures, etc.
 
 No information was given about the circumstances and ways the data were harvested. Features are represented by columns labels are self explanatory.
 
-##Data Preparation
+## Data Preparation
 No missing variables were detected. Data manipulation included the modification of the data type from obj and int to float, and the conversion to dummy variables. Columns not useful for medeling were dropped. 
 
-##Conclusion
+## Conclusion
 Results and their meaning in the terms proposed by the business problem were interpreted and explained.
