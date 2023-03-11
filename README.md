@@ -44,7 +44,7 @@ Churn rate or customer attrition rate is the critical metric that quantify mathe
 
 The customer satisfaction keeps the business running and thriving. Generally, the loss of customers is not sudden but the result of a prolonged succession of unsatisfying experiences or the lack of reward for the loyalty shown.
 
-Building a business, and a reputation, is a risky, challenging and strenous investiment from several points of view. Getting new customers is a even more finance consuming enterprise. As the saying goes "prevention is better than cure", the factors impacting the customer satisfaction can be investigated and actionable inputs can be delivered to prevent the loss.
+Building a business, and a reputation, is a risky, challenging and strenuous investment from several points of view. Getting new customers is a even more finance consuming enterprise. As the saying goes "prevention is better than cure", the factors impacting the customer satisfaction can be investigated and actionable inputs can be delivered to prevent the loss.
 
 As the matter of fact, the analysis of the customer churn can consolidate the base business while scouting for new expansion opportunities while avoid crisis and catastrophic consequences on the entire business, even in times of economic instability.
 
@@ -130,7 +130,7 @@ Given that, it is more important to consider precision and recall:
     
 - Recall. Out of all the customers that actually churned, the model only predicted this outcome correctly for these customers:
 
-    - Naive Gaussina Bayes: 55% 
+    - Naive Gaussian Bayes: 55% 
     
     - Bernouilli: 17%
     
@@ -141,7 +141,7 @@ Given that, it is more important to consider precision and recall:
 
 - F1 Score. This metric indicates how well the model predicts the churning choice. The closer the value is to 1, the better the model performs. Examining the values:
 
-    - Naive Gaussina Bayes: 0.56 
+    - Naive Gaussian Bayes: 0.56 
     
     - Bernouilli: 0.25
     
@@ -182,6 +182,6 @@ Pearson's correlation seems to suggest another category:
 - International Plan.
 
 
-It would be recommandable to further investigate these variables, with more specific data, using other models and parameters manipulation.  
+It would be recommendable to further investigate these variables, with more specific data, using other models and parameters manipulation.  
 Possible actions that could discourage a churning choice of the customers may involve different call rates depending on time and length of call. It would wise to invest in boosting the customer service and make it more efficient.
 
