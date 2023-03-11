@@ -75,6 +75,11 @@ Also:
 - 11% of the customers in the sample has an international plan 
 - 38% of the customers has a voice mail plan 
 
+<img width="1098" alt="sc3" src="https://user-images.githubusercontent.com/16385415/224516439-bf1dc3d4-d0fb-46e8-bfcf-8520331d7238.png">
+
+
+<img width="1006" alt="SC4" src="https://user-images.githubusercontent.com/16385415/224516369-4945393c-bcb8-4be7-bb8d-6e134aa50ace.png">
+
 ## RESULTS DISCUSSION
 
 Accuracy is the metric generally used to evaluate and compare models. It is calculated by the total number of true positives and true numbers are divided by the total number of observations. 
@@ -107,7 +112,7 @@ Which customers are important to this company?
 
 False Negatives and False Positives. Specifically False Negatives. Not only it is more expansive to acquire new customers in stead of the lost ones but also, a wrong evaluation, can mine goals and final balances.
 
-
+<img width="592" alt="SC2" src="https://user-images.githubusercontent.com/16385415/224516253-30d474b5-ffde-4b2b-9b94-5e238dcfd93c.png">
 
 
 Given that, it is more important to consider precision and recall:
@@ -152,17 +157,31 @@ AUC function takes both the true outcome from the test set and the predicting se
     - Random Forest: models performs almost perfectly discriminating True Positive and False Positive.
     
     - Support Vector Machine: model performs as an unskilled classifier. 
-
-## CONCLUSION
-
-According to the interpretation of these results, it can be stated that the Random Forest is the model that performs best as a classifier for this dataset
-
-### RECOMMENDATIONS
-
-Focus research and improvements in the three catagories analized by the model: focusing on offering a better customer service and more favorable rates for day calls. 
+    
+<img width="933" alt="SC1" src="https://user-images.githubusercontent.com/16385415/224516129-15b97025-e05c-4f2f-b41e-43faa488a13a.png">
 
 
-### FURTHER RESEARCH
+# CONCLUSION
 
-- Extend application of features selection and other models.
+According to the interpretation of these results, among the models used to solve the SyriaTel business problem, it can be stated that the Random Forest is the model that performs best as a classifier for this dataset, in order to predict the churning choice of customers based on several variables. 
+
+As the matter of fact, the Random Forest model was able to predict correctly churning customers (those who make a churning choice and those who effectively choose to churn) with very high degree (precision: 100%, recall 88%, F1 score 93%) results. This trend is also confirmed by the ROC plots which returns a almost perfect capability of identification.
+
+### RECOMMENDATIONS AND FURTHER RESEARCH
+
+According to the features selection analysis performed with the Random Forest model, there are three categories in particular that should be considered as area of improvements and further research:
+
+- Total Day Minutes.
+
+- Total Day Charges.
+
+- Customer Service Calls.
+
+Pearson's correlation seems to suggest another category:
+
+- International Plan.
+
+
+It would be recommandable to further investigate these variables, with more specific data, using other models and parameters manipulation.  
+Possible actions that could discourage a churning choice of the customers may involve different call rates depending on time and length of call. It would wise to invest in boosting the customer service and make it more efficient.
 
